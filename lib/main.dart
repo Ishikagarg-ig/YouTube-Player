@@ -31,6 +31,7 @@ class _HomePageState extends State<HomePage> {
 
   @override
   void initState() {
+    super.initState();
     _controller = YoutubePlayerController(
       initialVideoId: YoutubePlayer.convertUrlToId(videoURL),
     );
@@ -42,7 +43,6 @@ class _HomePageState extends State<HomePage> {
         mute: true,
       ),
     );
-    super.initState();
   }
 
   @override
