@@ -23,7 +23,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
 
-  String videoURL = "https://www.youtube.com/watch?v=CgO6QE79yTc";
+  String videoURL = "https://www.youtube.com/watch?v=Bkqp_pbHJLI";
   String liveVideoURL = "https://www.youtube.com/watch?v=5qap5aO4i9A";
 
   YoutubePlayerController _controller;
